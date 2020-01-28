@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import styled from 'styled-components';
 
-import * as actions from '../../store/actions';
+import * as actions from '../store/actions';
 
 
 const transition = 'transition: all 0.2s ease-out';

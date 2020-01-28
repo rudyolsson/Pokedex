@@ -5,7 +5,7 @@ import * as actions from './store/actions';
 
 import Aux from './hoc/Aux/Aux';
 import Header from './components/Header.js';
-import Pokedex from './containers/Pokedex/Pokedex';
+import Pokedex from './containers/Pokedex';
 import PokeballLoader from './components/UI/PokeballLoader/PokeballLoader';
 import classes from './App.css';
 

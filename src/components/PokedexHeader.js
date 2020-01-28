@@ -1,6 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import BlueCircleImg from '../images/p-blue.png';
+import RedCircleImg from '../images/p-red.png';
+import GreenCircleImg from '../images/p-green.png';
+import YellowCircleImg from '../images/p-yellow.png';
+
 const Wrapper = styled.div`
 	display: flex;
 	margin-left: 25px;
@@ -19,22 +24,22 @@ const Circle = styled.div`
 `;
 
 const BlueCircle = styled(Circle)`
-	background-image: url('../../images/p-blue.png');
+	background-image: url(${BlueCircleImg});
 	width: 60px;
 	height: 60px;
 	margin-left: 5px;
 `;
 
 const RedCircle = styled(Circle)`
-	background-image: url('../../images/p-red.png');
+	background-image: url(${RedCircleImg});
 `;
 
 const YellowCircle = styled(Circle)`
-	background-image: url('../../images/p-yellow.png');
+	background-image: url(${YellowCircleImg});
 `;
 
 const GreenCircle = styled(Circle)`
-	background-image: url('../../images/p-rgreen.png');
+	background-image: url(${GreenCircleImg});
 `;
 
 
