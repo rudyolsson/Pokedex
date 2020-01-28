@@ -1,0 +1,13 @@
+.PokeList {
+	overflow: scroll;
+	display: flex;
+	margin-left: 25px;
+	border-radius: 5px;
+	box-shadow: inset 0 0 65px rgba(0, 0, 0, 0.6);
+	align-items: center;
+	width: 100%;
+	height: 70%;
+	background-color: #bff9ff;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}

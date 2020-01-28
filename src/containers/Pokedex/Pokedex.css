@@ -1,0 +1,24 @@
+.Pokedex {
+	overflow-x: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 950px;
+	height: 700px;
+	padding-left: 10px;
+	margin: 50px auto;
+	background-color: #f22;
+	border-radius: 10px;
+	border-top-right-radius: 120px;
+	box-shadow: 0 14px 45px rgba(0, 0, 0, 0.22), 0 18px 45px rgba(0, 0, 0, 0.22);
+}
+
+.Pokedex:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.PokedexLeftPanel {
+	width: 50%;
+}
