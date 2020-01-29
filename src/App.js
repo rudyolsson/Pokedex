@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 
 import * as actions from './store/actions';
 
-import Aux from './hoc/Aux/Aux';
 import Header from './components/Header.js';
 import Pokedex from './containers/Pokedex';
 import PokeballLoader from './components/UI/PokeballLoader/PokeballLoader';
@@ -18,19 +17,19 @@ class App extends Component {
 		let page = null;
 		if (!this.props.loading) {
 			page = (
-				<Aux>
+				<>
 					<Header />
 					<Pokedex />
-				</Aux>
+				</>
 			);
 		} else {
 			page = (
-				<Aux>
+				<>
 					<Header />
 					<div className={classes.App}>
 						<PokeballLoader />
 					</div>
-				</Aux>
+				</>
 			);
 		}
 		return <div>{page}</div>;
